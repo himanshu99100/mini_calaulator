@@ -1,0 +1,73 @@
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
+      :root{
+      --bg-colour:#1C1C1C;
+      --hover-colour:#FF9500;
+      --button-colour: #505050;
+    }
+  *{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+  }
+  .header-bar h1{
+    text-align:center;
+  }
+  .container{
+      border: 2px solid black;
+      border-radius: 10%;
+      height: 25rem;
+      width: 20rem;
+      margin: 0 auto;
+      background-color: var(--bg-colour);
+      padding: 0.8rem;
+  }
+  .rows{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0.5rem;
+  }
+  .btn{
+      width: 3.3rem;
+      height:3rem;
+      border-radius: 20px;
+      background:var(--button-colour);
+      border: none;
+      text-align: center;
+      font-weight: 700;
+      color: white;
+      font-size: 1.5rem;
+  }
+  
+  
+  .btn:hover{
+      background-color: #FF9500;
+      transform: scale(1.2);
+      /* transition:all 0.1s ease-out; */
+  }
+  input{
+      padding-top: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      background:var(--button-colour);
+      width: 18rem;
+      height: 6rem;
+      border-radius: 12%;
+      font-weight: 700;
+      color: white;
+      font-size: 1.5rem;
+      border: none;
+  }
